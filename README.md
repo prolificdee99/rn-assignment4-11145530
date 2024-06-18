@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/rn-assignment4-ID.git
+git clone https://github.com/prolificdee99/rn-assignment4-11145530.git
 cd rn-assignment4-ID
 Install dependencies:
 npm install
