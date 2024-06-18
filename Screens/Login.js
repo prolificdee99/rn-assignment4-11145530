@@ -77,12 +77,12 @@ const LogIn = ({navigation}) => {
         				<Image
 						 style={[styles.groupChild1, styles.groupChildLayout]}
 						  resizeMode="cover"
-						    source={require('../assets/google.png')} 
+						    source={require('../assets/apple.png')} 
 						    />
 							<Image
 						 style={[styles.groupIcon, styles.groupChildLayout]} 
 						 resizeMode="cover"
-						  source={require('../assets/apple.png')} 
+						  source={require('../assets/google.png')} 
 						  />
         				<Image
 						 style={[styles.groupChild2, styles.groupChildLayout]}
