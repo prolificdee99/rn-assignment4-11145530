@@ -1,5 +1,6 @@
 import * as React from "react";
 import {Text, StyleSheet, View, Image, ScrollView} from "react-native";
+import VectorIcon from '../assets/Vector.png';
 
 
 const Homepage = () => {
@@ -21,12 +22,18 @@ const Homepage = () => {
         				<View style={styles.accraGhanaParent}>
           					<Text style={[styles.accraGhana, styles.textTypo]}>Accra, Ghana</Text>
           					<Text style={[styles.text, styles.textTypo]}>$180,00</Text>
+                    	
+                    	
         				</View>
         				<View style={styles.softwareEngineerParent}>
-          					<Text style={[styles.softwareEngineer, styles.facebookPosition]}>Software Engineer</Text>
+          					<Text style={[styles.softwareEngineer, styles.facebookPosition]}>Software Engineer</Text>	
           					<Text style={[styles.facebook, styles.googleTypo]}>Facebook</Text>
           					<View style={[styles.groupChild, styles.groupChildPosition]} />
         				</View>
+               <Image 
+        source={require('../assets/Vector.png')} 
+        style={styles.VectorImage} 
+      />
         				<View style={styles.bookmark5} />
       			</View>
       			<Text style={styles.popularJobs}>Popular Jobs</Text>
@@ -76,7 +83,7 @@ const Homepage = () => {
 				 source={require('../assets/profile.png')}/>
       			<Image style={[styles.homepageChild, styles.homepageChildPosition]} resizeMode="cover"
 				//small dot
-				 source={require('../assets/google.png')}
+				 source={require('../assets/reddot.jpg')}
 				   />
       			
       			<View style={[styles.homepageInner, styles.homepageInnerPosition]} />
@@ -103,11 +110,7 @@ const Homepage = () => {
 						 source={require('../assets/google.png')}
 						   />
 
-        				<Image 
-						style={styles.bookmark5}
-						 resizeMode="cover"
-						  source={require('../assets/google.png')}
-						   />
+        			
       			</View>
       			<View style={[styles.component2Wrapper, styles.componentLayout]}>
         				<View style={[styles.component2, styles.componentLayout]}>
@@ -116,6 +119,7 @@ const Homepage = () => {
           					<Text style={[styles.beats, styles.beatsPosition]}>Facebook</Text>
           					<Text style={[styles.floridaUs, styles.beatsPosition]}>Florida, US</Text>
           					<Text style={[styles.y1, styles.yTypo]}>$86,000/y</Text>
+                    	<Image style={[styles.image8Icon, styles.iconPosition]} resizeMode="cover" source={require('../assets/Vector.png')}/>
         				</View>
       			</View>
 				
@@ -504,14 +508,7 @@ const styles = StyleSheet.create({
     		position: "absolute",
     		overflow: "hidden"
   	},
-  	vectorIcon: {
-    		height: "2.71%",
-    		width: "5.87%",
-    		top: "37.47%",
-    		right: "78.67%",
-    		bottom: "59.82%",
-    		left: "15.47%"
-  	},
+  	
   	groupItem: {
     		borderRadius: 20,
     		height: 74,
@@ -750,21 +747,22 @@ const styles = StyleSheet.create({
     		top: 746,
     		left: 23
   	},
-  	vectorIcon1: {
-    		height: "4.57%",
-    		width: "10.67%",
-    		top: "87.7%",
-    		right: "74.93%",
-    		bottom: "7.72%",
-    		left: "14.4%"
-  	},
+  
   	homepage: {
     		backgroundColor: "#fafafd",
     		flex: 1,
     		height: 870,
     		overflow: "hidden",
     		width: "100%"
-  	}
+  	},
+    VectorImage:{
+      height:23.57,
+      width:22,
+      top:10,
+      left:10
+    }
+    
+    
 });
 
 export default Homepage;
