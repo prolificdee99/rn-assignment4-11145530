@@ -54,7 +54,11 @@ Styling
 The styles are defined using StyleSheet.create and are tailored to ensure responsiveness across different screen sizes using react-native-responsive-screen. The styles include layout configurations, typography settings, colors, and other design elements to provide a cohesive user experience.
 
 #Screenshots
-login.ss.jpg 
+<u>Screenshot 1</u>
+![Screenshot 1](./assets/Loginpagescreenshot.jpg)
+
+<u>Screenshot 2</u>
+![Screenshot 2](./assets/Homepagescreenshot.jpg)
 
 
 <!-- Include screenshots of the application here -->
