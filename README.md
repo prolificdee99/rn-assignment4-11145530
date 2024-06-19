@@ -58,7 +58,7 @@ The styles are defined using StyleSheet.create and are tailored to ensure respon
 ![Screenshot 1](./assets/Loginpagescreenshot.jpg)
 
 <u>Screenshot 2</u>
-![Screenshot 2](./assets/Homepagescreenshot.jpg)
+![Screenshot 2](./assets/Homepagescreenshots.jpg)
 
 
 <!-- Include screenshots of the application here -->
